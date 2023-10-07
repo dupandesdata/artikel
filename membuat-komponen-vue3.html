@@ -1,0 +1,41 @@
+<h1>Membuat Komponen Vue</h1>
+<p>Cara mengekspor dan menggunakan komponen tersebut:</p>
+<div class="code">
+  <span>tes.vue</span>
+  <code>
+    <p>&nbsp;&lt;template&gt;</p>
+    <p>&nbsp; &lt;h1&gt;Hello from a component&lt;/h1&gt;</p>
+    <p>&lt;/template&gt;</p>
+    <p><br /></p>
+    <p>&lt;script&gt;</p>
+    <p>export default {</p>
+    <p>&nbsp; name: 'TestComponent',</p>
+    <p>&nbsp; // Data, methods, computed properties, etc. for your component</p>
+    <p>}</p>
+    <p>&lt;/script&gt;</p>
+  </code>
+</div>
+<p>Dalam contoh di atas, kita menambahkan export default untuk mengexport komponen dengan nama "TestComponent".</p>
+<p>Kita dapat mengimpor komponen tersebut seperti ini:</p>
+<div class="code">
+  <span>app.vue</span>
+  <code
+    ><p>&nbsp;&lt;template&gt;</p>
+    <p>&nbsp; &lt;div&gt;</p>
+    <p>&nbsp; &nbsp; &lt;h2&gt;My App&lt;/h2&gt;</p>
+    <p>&nbsp; &nbsp; &lt;TestComponent /&gt; &lt;!-- Ini adalah penggunaan komponen yang diimpor --&gt;</p>
+    <p>&nbsp; &lt;/div&gt;</p>
+    <p>&lt;/template&gt;</p>
+    <p><br /></p>
+    <p>&lt;script&gt;</p>
+    <p>import TestComponent from '@/components/test.vue'; // Pastikan path sesuai dengan struktur proyek Anda</p>
+    <p>export default {</p>
+    <p>&nbsp; name: 'App',</p>
+    <p>&nbsp; components: {</p>
+    <p>&nbsp; &nbsp; TestComponent // Daftarkan komponen yang diimpor di sini</p>
+    <p>&nbsp; }</p>
+    <p>&nbsp; // Data, methods, computed properties, dll. untuk komponen App</p>
+    <p>}</p>
+    <p>&lt;/script&gt;</p></code
+  >
+</div>

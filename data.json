@@ -1,0 +1,22 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Encryption",
+      "dev": "Dupandes Milenium",
+      "published_date": "2024-09-20",
+      "content": "Aplikasi ini dirancang untuk melakukan encoding dan decoding...",
+      "tags": ["vue.js", "tailwind css"],
+      "path": "vue-cdn"
+    },
+    {
+      "id": 2,
+      "title": "VCF Reader and Edit",
+      "dev": "Dupandes Milenium",
+      "published_date": "2024-08-15",
+      "content": "Aplikasi pengelolaan kontak...",
+      "tags": ["vue.js", "tailwind css"],
+      "path": "vue-cdn"
+    }
+  ]
+}

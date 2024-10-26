@@ -1,19 +1,28 @@
 {
   "articles": [
     {
-      "id": 1,
-      "title": "Encryption",
+      "id": 3,
+      "title": "OCR (Optical Character Recognition)",
       "dev": "Dupandes Milenium",
-      "published_date": "2024-09-20",
-      "content": "Aplikasi ini dirancang untuk melakukan encoding dan decoding...",
+      "published_date": "2024-10-06",
+      "content": "Aplikasi ini dirancang untuk merubah gambar menjadi teks...",
       "tags": ["vue.js", "tailwind css"],
       "path": "vue-cdn"
     },
     {
       "id": 2,
+      "title": "Markdown)",
+      "dev": "Dupandes Milenium",
+      "published_date": "2024-09-26",
+      "content": "Aplikasi ini dirancang untuk membaca file md...",
+      "tags": ["vue.js", "tailwind css"],
+      "path": "vue-cdn"
+    },
+    {
+      "id": 1,
       "title": "VCF Reader and Edit",
       "dev": "Dupandes Milenium",
-      "published_date": "2024-08-15",
+      "published_date": "2024-09-16",
       "content": "Aplikasi pengelolaan kontak...",
       "tags": ["vue.js", "tailwind css"],
       "path": "vue-cdn"
